@@ -1,0 +1,239 @@
+step_size: 0.025933
+#####################################
+
+begspect20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dmq0d:
+  type: drift
+  L: 0.202439
+  nsep: 1
+
+q0d:
+  type: quadrupole
+  L: 0.5
+  strength: -0.328856645709
+  nsep: 1
+
+dm1qex:
+  type: drift
+  L: 0.286595
+  nsep: 1
+
+m0ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d1d:
+  type: drift
+  L: 0.580966
+  nsep: 1
+
+wdsotr:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dmq1d:
+  type: drift
+  L: 0.356564
+  nsep: 1
+
+q1d:
+  type: quadrupole
+  L: 0.5
+  strength: 0.542213589911
+  nsep: 1
+
+dm1qex:
+  type: drift
+  L: 0.286595
+  nsep: 1
+
+m1ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d2d:
+  type: drift
+  L: 0.754657
+  nsep: 1
+
+dmq2d:
+  type: drift
+  L: 0.183182
+  nsep: 1
+
+q2d:
+  type: quadrupole
+  L: 0.5
+  strength: -0.328856645709
+  nsep: 1
+
+dm1qex:
+  type: drift
+  L: 0.286595
+  nsep: 1
+
+m2ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d3d:
+  type: drift
+  L: 0.056305
+  nsep: 1
+
+xc1ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d4d:
+  type: drift
+  L: 3.177152733425373
+  nsep: 1
+
+b5d36:
+  type: sbend
+  L: 0.9779
+  angle: 0.006
+  E1: 0.003
+  E2: 0.003
+  nsep: 1
+
+dm3bex:
+  type: drift
+  L: 0.35750443506052587
+  nsep: 1
+
+m3ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d5d:
+  type: drift
+  L: 1.22355893395943
+  nsep: 1
+
+begpdc:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d6d:
+  type: drift
+  L: 1.36
+  nsep: 1
+
+endpdc:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d7d:
+  type: drift
+  L: 1.1300009999999998
+  nsep: 1
+
+begedc:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8d:
+  type: drift
+  L: 0.5
+  nsep: 1
+
+endedc:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d9d:
+  type: drift
+  L: 4.259999
+  nsep: 1
+
+dtotr:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d10d:
+  type: drift
+  L: 0.05
+  nsep: 1
+
+bflymid:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d11d:
+  type: drift
+  L: 0.23
+  nsep: 1
+
+extwin:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d12d:
+  type: drift
+  L: 0.09
+  nsep: 1
+
+pgam1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d13d:
+  type: drift
+  L: 0.590168
+  nsep: 1
+
+cnear:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d14d:
+  type: drift
+  L: 1.31
+  nsep: 1
+
+pdump:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+lairg:
+  type: drift
+  L: 1.675292943463
+  nsep: 1
+
+maindump:
+  type: instrument
+  L: unknown
+  nsep: 1
+
+dbmark30:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+endspect20:
+ type: drift
+  L: 0.00
+  nsep: 1
+

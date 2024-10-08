@@ -1,0 +1,48 @@
+#input_beam:
+#  style: distgen     # from_file or distgen
+#  #distgen_input_file: /sdf/group/ad/beamphysics/jytang/pyDFCSR/pyDFCSR_2D/example/input/chicane_init_beam.yaml#
+#  distgen_input_file: input/chicane_init_beam.yaml
+  
+input_beam:
+  style: h5  # from_file     # from_file or distgen or ParticleGroup_h5 or h5
+  beamfile: /global/homes/o/ocamacho/pydfCSR_sims/beam_files/BEGBC20_1M_-17.0_-38.5_pg_.h5
+  #charge: -1.60e-9 # C #1.0e-9     # C
+  #energy: 10017438333.110367
+  
+input_lattice:
+  #lattice_input_file: /sdf/group/ad/beamphysics/jytang/pyDFCSR/pyDFCSR_2D/example/input/chicane_lattice.yaml
+  lattice_input_file: /global/homes/o/ocamacho/pydfCSR_sims/lattice_files/b1le_0.yaml
+
+particle_deposition:
+  xbins: 200 #300         # number of grids in x for particle deposition
+  zbins: 200 #300         # number of grids in y for particle deposition
+  xlim:  5           # range in x in the unit of sigma_x
+  zlim: 5            # range in z in the unit of sigma_z
+  filter_order: 1    # 0 for no filter
+  filter_window: 9
+  velocity_threhold : 1000
+  upper_limit: 2000   # upper limit for interpolation
+
+
+CSR_integration:
+  n_formation_length: 1
+  zbins: 200
+  xbins: 200
+
+
+CSR_computation:
+  compute_CSR: 0               # if zero, only track the beam
+  apply_CSR: 0                   # flag apply CSR to particles
+  transverse_on: 0            # flag include transverse wake
+  xbins: 50                    # The mesh on which CSR wake is computed
+  zbins: 100
+  xlim: 3
+  zlim: 3
+  write_beam: [25] # First 50 steps have CSR
+  write_wakes: True
+  write_name: 'b1le_0_1M_-17.0_-38.5
+  #workdir: '/sdf/data/ad/ard/u/jytang/pyDFCSR/chicane_output/'
+  # This is where we write the sim output to
+  workdir: '/global/cfs/projectdirs/m669/obed/w_chicane_pydf_outputs/'
+
+

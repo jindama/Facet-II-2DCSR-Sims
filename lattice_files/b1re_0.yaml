@@ -1,0 +1,17 @@
+step_size: 0.0425209036 # 25 steps per magnet #0.079
+
+###################    
+b1re_full:
+    type: dipole
+    L: 1.06302259
+    angle:  0.02258935 #0.02258935
+    E1: 0.011294675 #0.011294675
+    E2: 0.011294675 #0.011294675
+    nsep: 1
+    #Done
+#########################
+# Fake drift, to make data symmetric
+D_final:
+    type: drift
+    L: 1.06302259
+    nsep: 1

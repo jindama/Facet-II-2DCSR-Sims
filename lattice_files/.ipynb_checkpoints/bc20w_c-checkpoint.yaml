@@ -1,0 +1,396 @@
+step_size: 0.074964 #0.0749 #1.0630226014319473
+
+#####################################
+D0:
+    type: drift
+    L: 0.0001
+    nsep: 1
+    
+b1le_1:
+  type: dipole
+  L: 1.0630226014319473
+  angle: 0.02258935
+  E1: 0.011294675
+  E2: 0.011294675
+  FINT: 0.5
+  FINTX: 0.5
+  HGAP: 0.0115
+  HGAPX: 0.0115
+  nsep: 1
+  
+D1:
+  type: drift
+  L: 4.963388703615578
+  nsep: 1
+
+q1el:
+  type: quad
+  L: 0.5962
+  K1: 0.811267045415
+  nsep: 1
+
+D2:
+  type: drift
+  L: 2.000806
+  nsep: 1
+
+sq1:
+  type: quad
+  L: 0.3813
+  TILT: 0.7853981633974483
+  K1: 0
+  nsep: 1
+
+D3:
+  type: drift
+  L: 1.4092440000000002
+  nsep: 1
+
+b2le:
+  type: dipole
+  L: 1.8249
+  angle: -0.0328099014075
+  FRINGE_AT: both_ends
+  FRINGE_TYPE: linear_edge
+  E1: -0.01640495070375
+  E2: -0.01640495070375
+  FINT: 0.5
+  FINTX: 0.5
+  HGAP: 0.00635
+  nsep: 1
+
+D4:
+  type: drift
+  L: 0.1936
+  nsep: 1
+
+q2el:
+  type: quad
+  L: 1.0
+  K1: -0.462440331546
+  nsep: 1
+
+D5:
+  type: drift
+  L: 0.193656
+  nsep: 1
+
+s1el:
+  type: sextupole
+  L: 0.25
+  K2: 9.651773976528
+  nsep: 1
+
+D6:
+  type: drift
+  L: 0.40759399999999996
+  nsep: 1
+
+q3el_1:
+  type: quad
+  L: 0.7142
+  K1: 0.462720996981
+  nsep: 1
+
+D7:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q3el_2:
+  type: quad
+  L: 0.7142
+  K1: 0.462720996981
+  nsep: 1
+
+D8:
+  type: drift
+  L: 0.240875
+  nsep: 1
+
+s2el:
+  type: sextupole
+  L: 0.762
+  K2: -8.063275568009
+  nsep: 1
+
+D9:
+  type: drift
+  L: 1.953475
+  nsep: 1
+
+s3el_1:
+  type: sextupole
+  L: 0.25
+  K2: -12.223414013976
+  nsep: 1
+
+D10:
+  type: drift
+  L: 0.2397
+  nsep: 1
+
+q4el_1:
+  type: quad
+  L: 0.7142
+  K1: 0.55529780432
+  nsep: 1
+
+D11:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q4el_2:
+  type: quad
+  L: 0.7142
+  K1: 0.55529780432
+  nsep: 1
+
+D12:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q4el_3:
+  type: quad
+  L: 0.7142
+  K1: 0.55529780432
+  nsep: 1
+
+D13:
+  type: drift
+  L: 0.2397
+  nsep: 1
+
+s3el_2:
+  type: sextupole
+  L: 0.25
+  K2: -12.223414013976
+  nsep: 1
+
+D14:
+  type: drift
+  L: 0.4800055036032944
+  nsep: 1
+
+q5el:
+  type: quad
+  L: 0.4284
+  K1: -0.163592075808
+  nsep: 1
+
+D15:
+  type: drift
+  L: 0.2293
+  nsep: 1
+
+b3le:
+  type: dipole
+  L: 0.5287
+  angle: 0.0102205514075
+  FRINGE_AT: both_ends
+  FRINGE_TYPE: linear_edge
+  E1: 0.00511027570375
+  E2: 0.00511027570375
+  FINT: 0.5
+  FINTX: 0.5
+  HGAP: 0.010325
+  nsep: 1
+
+D16:
+  type: drift
+  L: 0.241798
+  nsep: 1
+
+q6e:
+  type: quad
+  L: 0.31
+  K1: -1.376084837022
+  nsep: 1
+
+D17:
+  type: drift
+  L: 0.24179799999999999
+  nsep: 1
+b3re:
+  type: dipole
+  L: 0.5287
+  angle: 0.0102205514075
+  FRINGE_AT: both_ends
+  FRINGE_TYPE: linear_edge
+  E1: 0.00511027570375
+  E2: 0.00511027570375
+  FINT: 0.5
+  FINTX: 0.5
+  HGAP: 0.010325
+  nsep: 1
+
+D18:
+  type: drift
+  L: 0.2293
+  nsep: 1
+
+q5er:
+  type: quad
+  L: 0.4284
+  K1: -0.163597934794
+  nsep: 1
+
+D19:
+  type: drift
+  L: 0.48000550360329436
+  nsep: 1
+
+s3er_1:
+  type: sextupole
+  L: 0.25
+  K2: -12.223414013976
+  nsep: 1
+
+D20:
+  type: drift
+  L: 0.2397
+  nsep: 1
+
+q4er_1:
+  type: quad
+  L: 0.7142
+  K1: 0.55529780432
+  nsep: 1
+
+D21:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q4er_2:
+  type: quad
+  L: 0.7142
+  K1: 0.55529780432
+  nsep: 1
+
+D22:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q4er_3:
+  type: quad
+  L: 0.7142
+  K1: 0.55529780432
+  nsep: 1
+
+D23:
+  type: drift
+  L: 0.2397
+  nsep: 1
+
+s3er_2:
+  type: sextupole
+  L: 0.25
+  K2: -12.223414013976
+  nsep: 1
+
+D24:
+  type: drift
+  L: 1.9566499999999998
+  nsep: 1
+
+s2er:
+  type: sextupole
+  L: 0.762
+  K2: -8.063275568009
+  nsep: 1
+
+D25:
+  type: drift
+  L: 0.23770000000000002
+  nsep: 1
+
+q3er_1:
+  type: quad
+  L: 0.7142
+  K1: 0.462720996981
+  nsep: 1
+
+D26:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q3er_2:
+  type: quad
+  L: 0.7142
+  K1: 0.462720996981
+  nsep: 1
+
+D27:
+  type: drift
+  L: 0.39844999999999997
+  nsep: 1
+
+s1er:
+  type: sextupole
+  L: 0.25
+  K2: 9.651773976528
+  nsep: 1
+
+D28:
+  type: drift
+  L: 0.20279999999999995
+  nsep: 1
+
+q2er:
+  type: quad
+  L: 1.0
+  K1: -0.46243862549
+  nsep: 1
+
+D29:
+  type: drift
+  L: 0.1936
+  nsep: 1
+
+b2re:
+  type: dipole
+  L: 1.8249
+  angle: -0.0328099014075
+  FRINGE_AT: both_ends
+  FRINGE_TYPE: linear_edge
+  E1: -0.01640495070375
+  E2: -0.01640495070375
+  FINT: 0.5
+  FINTX: 0.0
+  HGAP: 0.00635
+  nsep: 1
+
+D30:
+  type: drift
+  L: 3.79135
+  nsep: 1
+
+q1er:
+  type: quad
+  L: 0.5962
+  K1: 0.811228495466
+  nsep: 1
+
+D31:
+  type: drift
+  L: 4.963388703615578
+  nsep: 1
+
+b1re:
+  type: dipole
+  L: 1.0630226014319473
+  angle: 0.02258935
+  FRINGE_AT: both_ends
+  FRINGE_TYPE: linear_edge
+  E1: 0.011294675
+  E2: 0.011294675
+  FINT: 0.5
+  FINTX: 0.5
+  HGAP: 0.0115
+  nsep: 1
+

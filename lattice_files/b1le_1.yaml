@@ -1,0 +1,112 @@
+##################################################
+# Tracking  
+###################################################
+
+step_size: 0.0425209036 #0.079 #25 steps through magnet
+
+
+# Second half of post-B1LE drift (no CSR)
+D1_1:
+    type: drift
+    L: 3.90036611
+    nsep: 100
+#d1et1a:
+#    type: drift
+#    L: 2.821013
+#    nsep: 1
+#    #Done 
+#d1et1b:
+#    type: drift
+#    L: 1.0449607036155784
+#    nsep: 1
+#    #Done
+#dtpm:
+#    type: drift
+#    L: 0.60494
+#    nsep: 1
+#   #Done
+#dpmm1:
+#    type: drift
+#    L: 0.339192
+#    nsep: 1
+#    #Done
+#dm1q:
+#    type: drift
+#    L: 0.153283
+#    nsep: 1
+#    #Done
+    
+q1el_full:
+  type: quad
+  L: 1.1924
+  strength: 0.811267045415
+  nsep: 100
+  #Done
+#2.000806 meters of drift  
+D2:
+    type: drift
+    L: 2.00806
+    nsep: 100
+#d2ea:
+#    type: drift
+#    L: 0.917799 
+#    nsep: 1
+#    #Done
+#dcnhc:
+#    type: drift
+#    L: 0.417207
+#    nsep: 1
+#    #Done
+#dhcyc1a:
+#    type: drift
+#    L: 0.6658
+#    nsep: 1
+#    #Done
+    
+sq1_full: #Skew quad, turned off for now
+  type: quad
+  L: 0.3813
+  strength: 0.0
+  nsep: 100
+  #Done
+#1.409244m of drift
+D3:
+    type: drift
+    L: 1.409244
+    nsep: 100
+    #Done
+#dhcyc1b:
+#    type: drift
+#    L: 0.5076940000000001
+#    nsep: 1
+#    #Done
+#dyc1e:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#dyc1e:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#dyc1xc1:
+#    type: drift
+#    L: 0.114
+#    nsep: 1
+#    #Done
+#dxc1e0:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#dxc1e1:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#dxc1b:
+#    type: drift
+#    L: 0.26755
+#    nsep: 1
+#    #Done

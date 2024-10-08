@@ -1,0 +1,231 @@
+##################################################
+# Tracking through final focus
+###################################################
+
+step_size: 0.0425209036 # #25 steps through magnet
+
+D11FF:
+    type: drift
+    L: 0.383821
+    nsep: 1
+
+MFFF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+Q5FF_full:
+    type: quad
+    L: 0.4609
+    strength: -0.467268800263
+    nsep: 1
+
+D10FF:
+    type: drift
+    L: 0.137748
+    nsep: 1
+
+M1FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+D9FF:
+    type: drift
+    L: 0.304419
+    nsep: 1
+
+BL20_4:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+D8FF:
+    type: drift
+    L: 0.2694
+    nsep: 1
+
+XC1FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+D8AFF:
+    type: drift
+    L: 0.3877
+    nsep: 1
+
+YC1FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+D8BFF:
+    type: drift
+    L: 0.237877
+    nsep: 1
+
+M2FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+D7FF:
+    type: drift
+    L: 0.2057
+    nsep: 1
+
+Q4FF_full:
+    type: quad
+    L: 0.7142
+    strength:  -0.34106223812
+    nsep: 1
+
+D6FF:
+    type: drift
+    L: 0.1957
+    nsep: 1
+
+Q3FF_full:
+    type: quad
+    L: 0.7142
+    strength: 0.416509781058
+    nsep: 1
+
+DKRK1:
+    type: drift
+    L: 0.691936
+    nsep: 1
+
+KRK:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+DKRK2:
+    type: drift
+    L: 0.231287
+    nsep: 1
+
+YC2FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+D4FF:
+    type: drift
+    L: 0.484
+    nsep: 1
+
+USTHz:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+DBMARK67:
+    type: drift
+    L: 0.205155
+    nsep: 1
+
+D3AFF:
+    type: drift
+    L: 0.817
+    nsep: 1
+
+DSTHz:
+    type: drift
+    L: 0.205155
+    nsep: 1
+
+D3FF:
+    type: drift
+    L: 0.49065
+    nsep: 1
+
+XC3FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+DXTC1:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+XTCAVF_full:
+    type: drift
+    L: 1.0334498 
+    nsep: 1
+
+DXTC2:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+Q2FF_full:
+    type: quad
+    L: 0.7142
+    strength: 0.53037956706
+    nsep: 1
+
+D2AFF:
+    type: drift
+    L: 0.034973
+    nsep: 1
+
+M3FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+D2FF:
+    type: drift
+    L: 0.829867
+    nsep: 1
+
+Q1FF_full:
+    type: quad
+    L: 0.7142
+    strength: -0.987354552247
+    nsep: 1
+
+D1AFF:
+    type: drift
+    L: 0.025933
+    nsep: 1
+
+M4FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+D1FF:
+    type: drift
+    L: 0.837967
+    nsep: 1
+
+Q0FF_full:
+    type: quad
+    L: 0.7142
+    strength: 0.53037956706
+    nsep: 1
+
+D0FF:
+    type: drift
+    L: 0.027833
+    nsep: 1
+
+M5FF:
+    type: drift
+    L: 0.00
+    nsep: 1
+
+DMQ0FF:
+    type: drift
+    L: 0.17701988
+    nsep: 1
+
+ENDFF20:
+    type: drift
+    L: 0.00
+    nsep: 1

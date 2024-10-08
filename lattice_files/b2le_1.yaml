@@ -1,0 +1,205 @@
+step_size: 0.072996 # 25 steps through magnet
+
+# Second half of post-B2LE drift, no CSR
+
+#D6_0:
+#    type: drift
+#    L: 0.21994
+#    nsep: 1
+D6_1:
+    type: drift
+    L: 0.187654
+    nsep: 100
+#d4eb1:
+#    type: drift
+#    L: 0.250412
+#    nsep: 1
+#    #Done
+#dm3q:
+#    type: drift
+#    L: 0.157182
+#    nsep: 1
+#    #Done
+ 
+q3el_1_full:
+  type: quad
+  L: 0.7142
+  strength: 0.462720996981
+  nsep: 100
+  #Done
+# 0.2294m of drift
+
+#dq3e:
+D7:
+    type: drift
+    L: 0.2294
+    nsep: 100
+    #Done
+ 
+q3el_2_full:
+  type: quad
+  L: 0.7142
+  strength: 0.462720996981
+  nsep: 100
+  #Done
+# 0.240875m of drift
+#d5ea1:
+D8:
+    type: drift
+    L: 0.240875
+    nsep: 100
+    #Done
+ 
+s2el_full:
+    type: sextupole
+    L: 0.762
+    strength: -8.063275568009         #1/m^3
+    nsep: 100
+    #Done
+# 1.953475m of drift
+D9:
+    type: drift
+    L: 1.953475
+    nsep: 100
+#d5eb1:
+#    type: drift
+#    L: 0.218886
+#    nsep: 1
+#    #Done
+#dxc2e:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#dxc2e:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#d5ec1a:
+#    type: drift
+#    L: 0.745056
+#    nsep: 1
+#    #Done
+#d5ec1b:
+#    type: drift
+#    L: 0.729533
+#    nsep: 1
+#    #Done
+    
+s3el_1_full:
+    type: sextupole
+    L: 0.25
+    strength: -12.223414013976         #1/m^3
+    nsep: 100
+    #Done
+# 0.2397m of drift
+
+#ds3e:
+D10:
+    type: drift
+    L: 0.2397
+    nsep: 100
+    #Done
+ 
+q4el_1_full:
+    type: quad
+    L: 0.7142
+    strength: 0.55529780432
+    nsep: 100
+    #Done
+# 0.2294m of drift
+
+#dq4e:
+D11:
+    type: drift
+    L: 0.2294
+    nsep: 100
+    #Done
+ 
+q4el_2_full:
+    type: quad
+    L: 0.7142
+    strength: 0.55529780432
+    nsep: 100
+    #Done
+# 0.2294m of drift
+
+#dq4e:
+D12:
+    type: drift
+    L: 0.2294
+    nsep: 100
+    #Done
+ 
+q4el_3_full:
+    type: quad
+    L: 0.7142
+    strength: 0.55529780432
+    nsep: 100
+    #Done
+# 0.2397m of drift 
+#dm4q:
+D13:
+    type: drift
+    L: 0.2397
+    nsep: 100
+    #Done
+#d6ea1:
+#    type: drift
+#    L: 0.0
+#    nsep: 1
+#    #Done
+ 
+s3el_2_full:
+    type: sextupole
+    L: 0.25
+    strength: -12.223414013976         #1/m^3
+    nsep: 100
+    #Done
+#0.480005504 m of drift
+D14:
+    type: drift
+    L: 0.480005504
+    nsep: 100
+
+#d6eb1:
+#    type: drift
+#   L: 0.18757775360329437
+#    nsep: 1
+#    #Done
+#dyc2e:
+#    type: drift
+#    L: 0.068
+#    nsep: 1
+#    #Done
+#dyc2e:
+#    type: drift
+#    L: 0.068
+#    nsep: 1
+#    #Done
+#d6ec1:
+#    type: drift
+#    L: 0.15642775
+#    nsep: 1
+#    #Done
+    
+q5el_full:
+    type: quad
+    L: 0.4284
+    strength: -0.163592075808
+    nsep: 100
+    #Done
+    
+#dm5q:
+#    type: drift
+#    L: 0.0
+#    nsep: 1
+    #Done
+#d7e1:
+D15:
+    type: drift
+    L: 0.2293
+    nsep: 100
+    #Done
+    

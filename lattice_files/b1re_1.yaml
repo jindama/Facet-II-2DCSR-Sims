@@ -1,0 +1,9 @@
+step_size: 0.0425209036 # 25 steps per magnet #0.079
+
+
+#########################
+# Fake drift, to make data symmetric
+D_final_2:
+    type: drift
+    L: 1.06302259
+    nsep: 100

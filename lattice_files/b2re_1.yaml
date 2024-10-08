@@ -1,0 +1,99 @@
+step_size: 0.072996 #0.079
+
+
+
+# Second half of B2RE drift, no CSR
+    
+D30_0:
+    type: drift
+    L: 1.96646082
+    nsep: 100
+    
+#db2xc4:
+#    type: drift
+#    L: 0.264
+#    nsep: 1
+#    #Done
+#dxc4e:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#dxc4e:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#dxc4tca:
+#    type: drift
+#    L: 0.029862
+#    nsep: 1
+#    #Done
+#dxc4tcb:
+#    type: drift
+#    L: 0.1915
+#    nsep: 1
+#    #Done
+#dxtcavf:
+#    type: drift
+#    L: 1.0334498 
+#    nsep: 1
+#    #Done
+#dtcwig:
+#    type: drift
+#    L: 0.303373944002
+#    nsep: 1
+#    #Done
+#    
+#wige_line:
+#    type: drift
+#    L: 1.2290608249533288
+#    nsep: 1
+#    #Done
+# 
+#dyagw:
+#    type: drift
+#    L: 0.266981610455
+#    nsep: 1
+#    #Done
+#dyagq:
+#    type: drift
+#    L: 0.213132645543
+#    nsep: 1
+#    #Done
+ 
+q1er_full:
+    type: quad
+    L: 0.5962
+    strength: 0.811228495466
+    nsep: 1
+    #Done
+
+D31:
+    type: drift
+    L: 4.9633887
+    nsep: 1
+#dm11q:
+#    type: drift
+#    L: 0.17868300000000004
+#    nsep: 1
+#    #Done
+#dtm11:
+#    type: drift
+#    L: 0.9162170000000001
+#    nsep: 1
+#    #Done
+#d1et2a:
+#    type: drift
+#    L: 2.452948
+#    nsep: 1
+#    #Done
+#d1et2b:
+#    type: drift
+#    L: 1.4155407036155783
+#    nsep: 1 
+#    #Done
+    
+    
+###################    
+#b1re_full:

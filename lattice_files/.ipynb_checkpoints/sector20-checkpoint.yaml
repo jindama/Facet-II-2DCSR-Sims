@@ -1,0 +1,1473 @@
+step_size: 0.10 # 0.025933
+#####################################
+
+begbc20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+b1le:
+  type: sbend
+  L: 1.0630226014319473
+  angle: 0.02258935
+  E1: 0.011294675
+  E2: 0.011294675
+  nsep: 1
+
+cb1le:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d1et1a:
+  type: drift
+  L: 2.821013
+  nsep: 1
+
+xc1996:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d1et1b:
+  type: drift
+  L: 1.0449607036155784
+  nsep: 1
+
+im2040:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dtpm:
+  type: drift
+  L: 0.60494
+  nsep: 1
+
+pmon:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dpmm1:
+  type: drift
+  L: 0.339192
+  nsep: 1
+
+m1e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dm1q:
+  type: drift
+  L: 0.153283
+  nsep: 1
+
+q1el:
+  type: quadrupole
+  L: 0.2981
+  strength: 0.811267045415
+  nsep: 1
+
+d2ea:
+  type: drift
+  L: 0.917799
+  nsep: 1
+
+cn2069:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dcnhc:
+  type: drift
+  L: 0.417207
+  nsep: 1
+
+cx2085:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dhcyc1a:
+  type: drift
+  L: 0.6658
+  nsep: 1
+
+sq1:
+  type: quadrupole
+  L: 0.19065
+  strength: 0
+  nsep: 1
+
+dhcyc1b:
+  type: drift
+  L: 0.5076940000000001
+  nsep: 1
+
+dyc1e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+yc1e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dyc1e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+dyc1xc1:
+  type: drift
+  L: 0.11399999999999999
+  nsep: 1
+
+dxc1e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+xc1e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dxc1e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+dxc1b:
+  type: drift
+  L: 0.26755
+  nsep: 1
+
+b2le:
+  type: sbend
+  L: 1.8249
+  angle: -0.0328099014075
+  E1: -0.01640495070375
+  E2: -0.01640495070375
+  nsep: 1
+
+cb2le:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+msep1e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d3e:
+  type: drift
+  L: 0.1936
+  nsep: 1
+
+q2el:
+  type: quadrupole
+  L: 0.5
+  strength: -0.462440331546
+  nsep: 1
+
+d4ea1:
+  type: drift
+  L: 0.193656
+  nsep: 1
+
+s1el:
+  type: sextupole
+  L: 0.125
+  strength: 9.651773976528
+  nsep: 1
+
+d4eb1:
+  type: drift
+  L: 0.420516
+  nsep: 1
+
+m3e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dm3q:
+  type: drift
+  L: 0.157182
+  nsep: 1
+
+q3el_1:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.462720996981
+  nsep: 1
+
+dq3e:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q3el_2:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.462720996981
+  nsep: 1
+
+d5ea1:
+  type: drift
+  L: 0.240875
+  nsep: 1
+
+ms2el:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+s2el:
+  type: sextupole
+  L: 0.381
+  strength: -8.063275568009
+  nsep: 1
+
+d5eb1:
+  type: drift
+  L: 0.218886
+  nsep: 1
+
+dxc2e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+xc2e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dxc2e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+d5ec1a:
+  type: drift
+  L: 0.745056
+  nsep: 1
+
+yc2181:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d5ec1b:
+  type: drift
+  L: 0.21753299999999987
+  nsep: 1
+
+s3el_1:
+  type: sextupole
+  L: 0.125
+  strength: -12.223414013976
+  nsep: 1
+
+ds3e:
+  type: drift
+  L: 0.2397
+  nsep: 1
+
+q4el_1:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.55529780432
+  nsep: 1
+
+dq4e:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q4el_2:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.55529780432
+  nsep: 1
+
+dq4e:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q4el_3:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.55529780432
+  nsep: 1
+
+dm4q:
+  type: drift
+  L: 0.2397
+  nsep: 1
+
+m4e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d6ea1:
+  type: drift
+  L: -0.020600000000000004
+  nsep: 1
+
+s3el_2:
+  type: sextupole
+  L: 0.125
+  strength: -12.223414013976
+  nsep: 1
+
+d6eb1:
+  type: drift
+  L: 19.610143376716426
+  nsep: 1
+
+dyc2e:
+  type: drift
+  L: 0.068
+  nsep: 1
+
+yc2e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dyc2e:
+  type: drift
+  L: 0.068
+  nsep: 1
+
+d6ec1:
+  type: drift
+  L: 0.15642775
+  nsep: 1
+
+q5el:
+  type: quadrupole
+  L: 0.2142
+  strength: -0.163592075808
+  nsep: 1
+
+dm5q:
+  type: drift
+  L: 0
+  nsep: 1
+
+m5e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d7e1:
+  type: drift
+  L: 0.2293
+  nsep: 1
+
+b3le:
+  type: sbend
+  L: 0.5287
+  angle: 0.0102205514075
+  E1: 0.00511027570375
+  E2: 0.00511027570375
+  nsep: 1
+
+cb3le:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8em:
+  type: drift
+  L: 0.195069
+  nsep: 1
+
+m6e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dm6q:
+  type: drift
+  L: 0.036643
+  nsep: 1
+
+q6e:
+  type: quadrupole
+  L: 0.155
+  strength: -1.376084837022
+  nsep: 1
+
+d8e:
+  type: drift
+  L: 0.24179799999999999
+  nsep: 1
+
+b3re:
+  type: sbend
+  L: 0.5287
+  angle: 0.0102205514075
+  E1: 0.00511027570375
+  E2: 0.00511027570375
+  nsep: 1
+
+cb3re:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d7e2:
+  type: drift
+  L: 0.2293
+  nsep: 1
+
+m7e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dm7q:
+  type: drift
+  L: 0
+  nsep: 1
+
+q5er:
+  type: quadrupole
+  L: 0.2142
+  strength: -0.163597934794
+  nsep: 1
+
+d6ec2:
+  type: drift
+  L: 0.18632075
+  nsep: 1
+
+dyc3e:
+  type: drift
+  L: 0.068
+  nsep: 1
+
+yc3e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dyc3e:
+  type: drift
+  L: 0.068
+  nsep: 1
+
+d6eb2:
+  type: drift
+  L: 19.580250376716425
+  nsep: 1
+
+s3er_1:
+  type: sextupole
+  L: 0.125
+  strength: -12.223414013976
+  nsep: 1
+
+d6ea2:
+  type: drift
+  L: -0.020600000000000004
+  nsep: 1
+
+m8e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dm8q:
+  type: drift
+  L: 0.2397
+  nsep: 1
+
+q4er_1:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.55529780432
+  nsep: 1
+
+dq4e:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q4er_2:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.55529780432
+  nsep: 1
+
+dq4e:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q4er_3:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.55529780432
+  nsep: 1
+
+ds3e:
+  type: drift
+  L: 0.2397
+  nsep: 1
+
+s3er_2:
+  type: sextupole
+  L: 0.125
+  strength: -12.223414013976
+  nsep: 1
+
+d5ec2a:
+  type: drift
+  L: 0.890355
+  nsep: 1
+
+yc2321:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d5ec2b:
+  type: drift
+  L: 0.07309499999999991
+  nsep: 1
+
+dxc3e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+xc3e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dxc3e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+d5eb2:
+  type: drift
+  L: 0.22119999999999998
+  nsep: 1
+
+ms2er:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+s2er:
+  type: sextupole
+  L: 0.381
+  strength: -8.063275568009
+  nsep: 1
+
+d5ea2:
+  type: drift
+  L: 0.23770000000000002
+  nsep: 1
+
+q3er_1:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.462720996981
+  nsep: 1
+
+dq3e:
+  type: drift
+  L: 0.2294
+  nsep: 1
+
+q3er_2:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.462720996981
+  nsep: 1
+
+dm9q:
+  type: drift
+  L: 0.185895
+  nsep: 1
+
+m9e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d4eb2:
+  type: drift
+  L: 0.384345
+  nsep: 1
+
+s1er:
+  type: sextupole
+  L: 0.125
+  strength: 9.651773976528
+  nsep: 1
+
+d4ea2:
+  type: drift
+  L: 0.10279999999999995
+  nsep: 1
+
+dmq:
+  type: drift
+  L: 0.1
+  nsep: 1
+
+q2er:
+  type: quadrupole
+  L: 0.5
+  strength: -0.46243862549
+  nsep: 1
+
+d3e:
+  type: drift
+  L: 0.1936
+  nsep: 1
+
+msep2e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+b2re:
+  type: sbend
+  L: 1.8249
+  angle: -0.0328099014075
+  E1: -0.01640495070375
+  E2: -0.01640495070375
+  nsep: 1
+
+cb2re:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+db2xc4:
+  type: drift
+  L: 0.264
+  nsep: 1
+
+dxc4e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+xc4e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dxc4e:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+dxc4tca:
+  type: drift
+  L: 0.029862
+  nsep: 1
+
+dxc4tcb:
+  type: drift
+  L: 0.1915
+  nsep: 1
+
+dxtcavf:
+  type: drift
+  L: 1.0334497999999999
+  nsep: 1
+
+dtcwig:
+  type: drift
+  L: 0.303373944002
+  nsep: 1
+
+wige1:
+  type: sbend
+  L: 0.244
+  angle: -0.0
+  E1: 0.0
+  E2: -0.0
+  nsep: 1
+
+dwe:
+  type: drift
+  L: 0.126525
+  nsep: 1
+
+wige2:
+  type: sbend
+  L: 0.488
+  angle: 0.0
+  E1: 0.0
+  E2: 0.0
+  nsep: 1
+
+dwe:
+  type: drift
+  L: 0.126525
+  nsep: 1
+
+wige3:
+  type: sbend
+  L: 0.244
+  angle: -0.0
+  E1: -0.0
+  E2: 0.0
+  nsep: 1
+
+dyagw:
+  type: drift
+  L: 0.266981610455
+  nsep: 1
+
+syag:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dyagq:
+  type: drift
+  L: 0.213132645543
+  nsep: 1
+
+q1er:
+  type: quadrupole
+  L: 0.2981
+  strength: 0.811228495466
+  nsep: 1
+
+dm11q:
+  type: drift
+  L: 0.17868300000000004
+  nsep: 1
+
+m11e:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dtm11:
+  type: drift
+  L: 0.9162170000000001
+  nsep: 1
+
+im2452:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d1et2a:
+  type: drift
+  L: 2.452948
+  nsep: 1
+
+xc2460:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d1et2b:
+  type: drift
+  L: 1.4155407036155783
+  nsep: 1
+
+b1re:
+  type: sbend
+  L: 1.0630226014319473
+  angle: 0.02258935
+  E1: 0.011294675
+  E2: 0.011294675
+  nsep: 1
+
+cb1re:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+endbc20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+begff20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d11ff:
+  type: drift
+  L: 0.383821
+  nsep: 1
+
+mfff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+q5ff:
+  type: quadrupole
+  L: 0.23045
+  strength: -0.467268800263
+  nsep: 1
+
+d10ff:
+  type: drift
+  L: 0.137748
+  nsep: 1
+
+m1ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d9ff:
+  type: drift
+  L: 0.304419
+  nsep: 1
+
+bl20_4:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8ff:
+  type: drift
+  L: 0.2694
+  nsep: 1
+
+xc1ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8aff:
+  type: drift
+  L: 0.3877
+  nsep: 1
+
+yc1ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8bff:
+  type: drift
+  L: 0.237877
+  nsep: 1
+
+m2ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d7ff:
+  type: drift
+  L: 0.2057
+  nsep: 1
+
+q4ff:
+  type: quadrupole
+  L: 0.3571
+  strength: -0.34106223812
+  nsep: 1
+
+d6ff:
+  type: drift
+  L: 0.1957
+  nsep: 1
+
+q3ff:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.416509781058
+  nsep: 1
+
+dkrk1:
+  type: drift
+  L: 0.691936
+  nsep: 1
+
+krk:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dkrk2:
+  type: drift
+  L: 0.231287
+  nsep: 1
+
+yc2ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d4ff:
+  type: drift
+  L: 0.484
+  nsep: 1
+
+usthz:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dbmark67:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d3aff:
+  type: drift
+  L: 0.817
+  nsep: 1
+
+dsthz:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d3ff:
+  type: drift
+  L: 0.49065
+  nsep: 1
+
+xc3ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dxtc1:
+  type: drift
+  L: 0.750525
+  nsep: 1
+
+xtcavf:
+  type: crab_cavity
+  L: 0.5167248999999999
+  nsep: 1
+
+dxtc2:
+  type: drift
+  L: 1.182251
+  nsep: 1
+
+q2ff:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.53037956706
+  nsep: 1
+
+d2aff:
+  type: drift
+  L: 0.034973
+  nsep: 1
+
+m3ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d2ff:
+  type: drift
+  L: 0.829867
+  nsep: 1
+
+q1ff:
+  type: quadrupole
+  L: 0.3571
+  strength: -0.987354552247
+  nsep: 1
+
+d1aff:
+  type: drift
+  L: 0.025933
+  nsep: 1
+
+m4ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d1ff:
+  type: drift
+  L: 0.837967
+  nsep: 1
+
+q0ff:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.53037956706
+  nsep: 1
+
+d0ff:
+  type: drift
+  L: 0.027833
+  nsep: 1
+
+m5ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dmq0ff:
+  type: drift
+  L: 0.17701988
+  nsep: 1
+
+endff20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+begexpt20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_1:
+  type: drift
+  L: 0.072982138228781
+  nsep: 1
+
+exthole1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_2:
+  type: drift
+  L: 0.26
+  nsep: 1
+
+usotr:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_3:
+  type: drift
+  L: 0.1
+  nsep: 1
+
+iqmon20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_4:
+  type: drift
+  L: 0.06
+  nsep: 1
+
+bewin1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_5:
+  type: drift
+  L: 0.12
+  nsep: 1
+
+lcube:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_6:
+  type: drift
+  L: 0.72
+  nsep: 1
+
+pic_cent:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_7:
+  type: drift
+  L: 0.4017
+  nsep: 1
+
+filg:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_8:
+  type: drift
+  L: 0.052
+  nsep: 1
+
+fils:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_9:
+  type: drift
+  L: 0.4663
+  nsep: 1
+
+ipotr1p:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_10:
+  type: drift
+  L: 0.09
+  nsep: 1
+
+ipotr1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_10a:
+  type: drift
+  L: 0.04
+  nsep: 1
+
+pent:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+mip:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_11:
+  type: drift
+  L: 0.04
+  nsep: 1
+
+ipws1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_12:
+  type: drift
+  L: 1.13
+  nsep: 1
+
+pext:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_12a:
+  type: drift
+  L: 0.05
+  nsep: 1
+
+ipotr2:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_13:
+  type: drift
+  L: 0.9
+  nsep: 1
+
+im3255:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_14:
+  type: drift
+  L: 0.11
+  nsep: 1
+
+bewin2:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_15:
+  type: drift
+  L: 0.05
+  nsep: 1
+
+ipws3:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_16:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+dsotr:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+endexpt20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+begspect20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dmq0d:
+  type: drift
+  L: 0.202439
+  nsep: 1
+
+q0d:
+  type: quadrupole
+  L: 0.5
+  strength: -0.328856645709
+  nsep: 1
+
+dm1qex:
+  type: drift
+  L: 0.286595
+  nsep: 1
+
+m0ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d1d:
+  type: drift
+  L: 0.580966
+  nsep: 1
+
+wdsotr:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dmq1d:
+  type: drift
+  L: 0.356564
+  nsep: 1
+
+q1d:
+  type: quadrupole
+  L: 0.5
+  strength: 0.542213589911
+  nsep: 1
+
+dm1qex:
+  type: drift
+  L: 0.286595
+  nsep: 1
+
+m1ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d2d:
+  type: drift
+  L: 0.754657
+  nsep: 1
+
+dmq2d:
+  type: drift
+  L: 0.183182
+  nsep: 1
+
+q2d:
+  type: quadrupole
+  L: 0.5
+  strength: -0.328856645709
+  nsep: 1
+
+dm1qex:
+  type: drift
+  L: 0.286595
+  nsep: 1
+
+m2ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d3d:
+  type: drift
+  L: 0.056305
+  nsep: 1
+
+xc1ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d4d:
+  type: drift
+  L: 3.177152733425373
+  nsep: 1
+
+b5d36:
+  type: sbend
+  L: 0.9779
+  angle: 0.006
+  E1: 0.003
+  E2: 0.003
+  nsep: 1
+
+dm3bex:
+  type: drift
+  L: 0.35750443506052587
+  nsep: 1
+
+m3ex:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d5d:
+  type: drift
+  L: 1.22355893395943
+  nsep: 1
+
+begpdc:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d6d:
+  type: drift
+  L: 1.36
+  nsep: 1
+
+endpdc:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d7d:
+  type: drift
+  L: 1.1300009999999998
+  nsep: 1
+
+begedc:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8d:
+  type: drift
+  L: 0.5
+  nsep: 1
+
+endedc:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d9d:
+  type: drift
+  L: 4.259999
+  nsep: 1
+
+dtotr:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d10d:
+  type: drift
+  L: 0.05
+  nsep: 1
+
+bflymid:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d11d:
+  type: drift
+  L: 0.23
+  nsep: 1
+
+extwin:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d12d:
+  type: drift
+  L: 0.09
+  nsep: 1
+
+pgam1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d13d:
+  type: drift
+  L: 0.590168
+  nsep: 1
+
+cnear:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d14d:
+  type: drift
+  L: 1.31
+  nsep: 1
+
+pdump:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+lairg:
+  type: drift
+  L: 1.675292943463
+  nsep: 1
+
+maindump:
+  type: instrument
+  L: unknown
+  nsep: 1
+
+dbmark30:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+endspect20:
+ type: drift
+  L: 0.00
+  nsep: 1
+

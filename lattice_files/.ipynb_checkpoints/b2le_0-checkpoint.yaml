@@ -1,0 +1,58 @@
+step_size: 0.072996 # 25 steps through magnet
+
+#################################
+b2le_full:
+    type: dipole
+    L: 1.8249
+    angle: -0.0328099014075
+    E1: -0.01640495070375
+    E2: -0.01640495070375
+    nsep: 1
+    #Done
+##############################   
+# 0.1936m of drift  
+D4:
+    type: drift
+    L: 0.1936
+    nsep: 1
+    #Done
+    
+#d3e:
+#    type: drift
+#    L: 0.1936
+#    nsep: 1
+#    #Done
+    
+q2el_full:
+  type: quad
+  L: 1.00
+  strength: -0.462440331546
+  nsep: 1
+  #Done
+# 0.193656m of drift
+
+D5:
+    type: drift
+    L: 0.193656
+    nsep: 1
+    #Done
+    
+#d4ea1:
+#    type: drift
+#    L: 0.193656
+#    nsep: 1
+#    #Done
+    
+s1el_full:
+    type: sextupole
+    L: 0.250
+    strength: 9.651773976528         #1/m^3
+    nsep: 1
+    #Done
+# 0.407594m of drift  
+
+D6_0:
+    type: drift
+    L: 0.21994
+    nsep: 1
+#D6_1:

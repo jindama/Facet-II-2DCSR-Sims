@@ -1,0 +1,18 @@
+step_size: 0.0395 #0.079
+
+# Second half of B3LE drift, no CSR
+
+q6e_full_0:
+    type: quad
+    L: 0.023098 # 0.31
+    strength: -1.376084837022
+    nsep: 100
+    #Done
+
+#d8e:
+D17:
+    type: drift
+    L: 0.241798
+    nsep: 100
+    #Done
+    

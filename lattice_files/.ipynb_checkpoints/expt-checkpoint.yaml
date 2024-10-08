@@ -1,0 +1,198 @@
+step_size: 0.025933
+#####################################
+
+begexpt20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_1:
+  type: drift
+  L: 0.072982138228781
+  nsep: 1
+
+exthole1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_2:
+  type: drift
+  L: 0.26
+  nsep: 1
+
+usotr:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_3:
+  type: drift
+  L: 0.1
+  nsep: 1
+
+iqmon20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_4:
+  type: drift
+  L: 0.06
+  nsep: 1
+
+bewin1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_5:
+  type: drift
+  L: 0.12
+  nsep: 1
+
+lcube:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_6:
+  type: drift
+  L: 0.72
+  nsep: 1
+
+pic_cent:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_7:
+  type: drift
+  L: 0.4017
+  nsep: 1
+
+filg:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_8:
+  type: drift
+  L: 0.052
+  nsep: 1
+
+fils:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_9:
+  type: drift
+  L: 0.4663
+  nsep: 1
+
+ipotr1p:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_10:
+  type: drift
+  L: 0.09
+  nsep: 1
+
+ipotr1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_10a:
+  type: drift
+  L: 0.04
+  nsep: 1
+
+pent:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+mip:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_11:
+  type: drift
+  L: 0.04
+  nsep: 1
+
+ipws1:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_12:
+  type: drift
+  L: 1.13
+  nsep: 1
+
+pext:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_12a:
+  type: drift
+  L: 0.05
+  nsep: 1
+
+ipotr2:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_13:
+  type: drift
+  L: 0.9
+  nsep: 1
+
+im3255:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_14:
+  type: drift
+  L: 0.11
+  nsep: 1
+
+bewin2:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_15:
+  type: drift
+  L: 0.05
+  nsep: 1
+
+ipws3:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dex20_16:
+  type: drift
+  L: 0.13
+  nsep: 1
+
+dsotr:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+endexpt20:
+ type: drift
+  L: 0.00
+  nsep: 1
+

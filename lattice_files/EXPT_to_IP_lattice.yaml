@@ -1,0 +1,241 @@
+##################################################
+# Tracking up to nominal interaction point region 
+###################################################
+
+step_size: 0.0425209036 # #25 steps through magnet
+
+#################################    
+BEGEXPT20:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+#################################    
+
+DEX20_1:
+    type: drift
+    L: 0.072982138228781
+    nsep: 1
+    #Done
+
+EXTHOLE1:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_2:
+    type: drift
+    L: 0.26
+    nsep: 1
+    #Done
+
+USOTR:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_3:
+    type: drift
+    L: 0.1
+    nsep: 1
+    #Done
+
+IQMON20:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_4:
+    type: drift
+    L: 0.06
+    nsep: 1
+    #Done
+
+BEWIN1:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_5:
+    type: drift
+    L: 0.12
+    nsep: 1
+    #Done
+
+LCUBE:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_6:
+    type: drift
+    L: 0.72
+    nsep: 1
+    #Done
+
+PIC_CENT:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_7:
+    type: drift
+    L: 0.4017
+    nsep: 1
+    #Done
+
+FILG:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_8:
+    type: drift
+    L: 0.052
+    nsep: 1
+    #Done
+
+FILS:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_9:
+    type: drift
+    L: 0.4663
+    nsep: 1
+    #Done
+
+IPOTR1P:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_10:
+    type: drift
+    L: 0.09
+    nsep: 1
+    #Done
+
+IPOTR1:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+DEX20_10a:
+    type: drift
+    L: 0.04
+    nsep: 1
+    #Done
+
+PENT:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+MIP:
+    type: drift
+    L: 0.00
+    nsep: 1
+    #Done
+
+#DEX20_11:
+#    type: drift
+#    L: 0.04
+#    nsep: 1
+#    #Done
+
+#IPWS1:
+#    type: drift
+#    L: 0.00
+#    nsep: 1
+#    #Done
+
+#DEX20_12:
+#    type: drift
+#    L: 1.13
+#    nsep: 1
+#    #Done
+
+#PEXT:
+#    type: drift
+#    L: 0.00
+#    nsep: 1
+#    #Done
+
+#DEX20_12a:
+#    type: drift
+#    L: 0.05
+#    nsep: 1
+#    #Done
+
+#IPOTR2:
+#    type: drift
+#    L: 0.00
+#    nsep: 1
+#    #Done
+
+#DEX20_13:
+#    type: drift
+#    L: 0.9
+#    nsep: 1
+#    #Done
+
+#IM3255:
+#    type: drift
+#    L: 0.00
+#    nsep: 1
+#    #Done
+
+#DEX20_14:
+#    type: drift
+#    L: 0.11
+#    nsep: 1
+#    #Done
+
+#BEWIN2:
+#    type: dipole
+#    L: 0.00
+#    nsep: 1
+#    #Done
+
+#DEX20_15:
+#    type: drift
+#    L: 0.05
+#    nsep: 1
+#    #Done
+
+#IPWS3:
+#    type: drift
+#    L: 0.00
+#    nsep: 1
+#    #Done
+
+#DEX20_16:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+
+#DSOTR:
+#    type: drift
+#    L: 0.00
+#    nsep: 1
+#    #Done
+
+#ENDEXPT20:
+#    type: drift
+#    L: 0.00
+#    nsep: 1
+#    #Done

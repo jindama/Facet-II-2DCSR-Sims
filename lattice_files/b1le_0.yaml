@@ -1,0 +1,23 @@
+step_size: 0.50 #0.0425209036 #0.079 #25 steps through magnet
+
+
+#################################
+b1le_full:
+    type: dipole
+    L: 1.06302259
+    angle: 0.02258935
+    E1: 0.011294675
+    E2: 0.011294675
+    nsep: 1
+    #Done
+#################################
+# 4.9633887 m of drift
+# Output CSR for one more magnet length
+D1_0:
+    type: drift
+    L: 1.06302259
+    nsep: 1
+#D1_1:
+#    type: drift
+#    L: 3.90036611
+#    nsep: 100

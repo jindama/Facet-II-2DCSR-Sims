@@ -1,0 +1,222 @@
+step_size:  0.0395 #0.079
+
+# Second half of post-B3RE drift (no CSR)
+q5er_full_1:
+    type: quad
+    L: 0.129 #0.4284
+    strength: -0.163592075808 #-0.163597934794
+    nsep: 100
+    #Done
+    
+D19:
+    type: drift
+    L: 0.480005504
+    nsep: 100
+    
+#d6ec2:
+#    type: drift
+#    L: 0.18632075
+#    nsep: 1
+#    #Done
+#dyc3e:
+#    type: drift
+#    L: 0.068
+#    nsep: 1
+#    #Done
+#dyc3e:
+#    type: drift
+#    L: 0.068
+#    nsep: 1
+#    #Done
+#d6eb2:
+#    type: drift
+#    L: 0.15768475360329437
+#    nsep: 1
+#    #Done
+
+s3er_1_full:
+    type: sextupole
+    L: 0.25
+    strength: -12.223414013976         #1/m^3
+    nsep: 100
+    #Done
+    
+#d6ea2:
+#    type: drift
+#    L: 0.0
+#    nsep: 1
+    #Done
+#dm8q:
+D20:
+    type: drift
+    L: 0.2397
+    nsep: 100
+    #Done
+    
+q4er_1_full:
+    type: quad
+    L: 0.7142
+    strength: 0.55529780432 # 0.55529780432 
+    nsep: 100
+    #Done
+    
+#dq4e:
+D21:
+    type: drift
+    L: 0.2294
+    nsep: 100
+    #Done
+    
+q4er_2_full:
+    type: quad
+    L: 0.7142
+    strength: 0.55529780432 
+    nsep: 100
+    #Done
+    
+#dq4e:
+D22:
+    type: drift
+    L: 0.2294
+    nsep: 100
+    #Done
+    
+q4er_3_full:
+    type: quad
+    L: 0.7142
+    strength: 0.55529780432 
+    nsep: 100
+    #Done
+        
+
+#ds3e:
+D23:
+    type: drift
+    L: 0.2397
+    nsep: 100
+    #Done
+    
+s3er_2_full:
+    type: sextupole
+    L: 0.25
+    strength: -12.223414013976         #1/m^3
+    nsep: 100
+    #Done
+
+D24:
+    type: drift
+    L: 1.95665
+    nsep: 100
+    #Done
+    
+#d5ec2a:
+#    type: drift
+#    L: 0.890355
+#    nsep: 1
+#    #Done
+#d5ec2b:
+#    type: drift
+#    L: 0.585095
+#    nsep: 1
+#    #Done
+#dxc3e0:
+#    type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#dxc3e1:
+#   type: drift
+#    L: 0.13
+#    nsep: 1
+#    #Done
+#d5eb2:
+#    type: drift
+#    L: 0.2212
+#    nsep: 1
+#    #Done
+    
+s2er_full:
+    type: sextupole
+    L: 0.762
+    strength: -8.063275568009         #1/m^3
+    nsep: 100
+    #Done
+    
+#d5ea2:
+D25:
+    type: drift
+    L: 0.23770000000000002
+    nsep: 1
+    #Done
+    
+q3er_1_full:
+    type: quad
+    L: 0.7142
+    strength: 0.462720996981
+    nsep: 100
+    #Done
+    
+#dq3e:
+D26:
+    type: drift
+    L: 0.2294
+    nsep: 100
+    #Done
+    
+q3er_2_full:
+    type: quad
+    L: 0.7142
+    strength: 0.462720996981
+    nsep: 100
+    #Done
+D27:
+    type: drift
+    L: 0.39845
+    nsep: 100
+#dm9q:
+#    type: drift
+#    L: 0.185895
+#    nsep: 1
+#    #Done
+#d4eb2:
+#    type: drift
+#    L: 0.212555
+#    nsep: 1
+#    #Done
+
+s1er_full:
+    type: sextupole
+    L: 0.25
+    strength: 9.651773976528         #1/m^3
+    nsep: 100
+    #Done
+D28:
+    type: drift
+    L: 0.2028
+    nsep: 100
+    
+#d4ea2:
+#    type: drift
+#    L: 0.1028
+#    nsep: 1
+#    #Done
+#dmq:
+#    type: drift
+#    L: 0.10
+#    nsep: 1
+#    #Done
+    
+q2er_full:
+    type: quad
+    L: 1.0
+    strength: -0.46243862549
+    nsep: 100
+    #Done
+#d3e:
+D29:
+    type: drift
+    L: 0.1936
+    nsep: 100
+    #Done
+  
+  

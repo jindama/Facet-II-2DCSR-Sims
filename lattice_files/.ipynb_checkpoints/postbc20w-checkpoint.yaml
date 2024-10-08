@@ -1,0 +1,211 @@
+step_size: 0.10
+#####################################
+
+q5ff:
+  type: quad
+  L: 0.4609
+  strength: -0.467268800263
+  nsep: 1
+
+D2:
+  type: drift
+  L: 1.5428439999999999
+  nsep: 1
+
+q4ff:
+  type: quad
+  L: 0.7142
+  strength: -0.34106223812
+  nsep: 1
+
+D3:
+  type: drift
+  L: 0.1957
+  nsep: 1
+
+q3ff:
+  type: quad
+  L: 0.7142
+  strength: 0.416509781058
+  nsep: 1
+
+D4:
+  type: drift
+  L: 3.4653980000000004
+  nsep: 1
+
+xtcavf:
+  type: None
+  L: 1.0334497999999999
+  nsep: 1
+
+D5:
+  type: drift
+  L: 1.182251
+  nsep: 1
+
+q2ff:
+  type: quad
+  L: 0.7142
+  strength: 0.53037956706
+  nsep: 1
+
+D6:
+  type: drift
+  L: 0.86484
+  nsep: 1
+
+q1ff:
+  type: quad
+  L: 0.7142
+  strength: -0.987354552247
+  nsep: 1
+
+D7:
+  type: drift
+  L: 0.8639
+  nsep: 1
+
+q0ff:
+  type: quad
+  L: 0.7142
+  strength: 0.53037956706
+  nsep: 1
+
+D8:
+  type: drift
+  L: 5.2002740182287805
+  nsep: 1
+
+q0d:
+  type: quad
+  L: 1.0
+  strength: -0.328856645709
+  nsep: 1
+
+D9:
+  type: drift
+  L: 1.224125
+  nsep: 1
+
+q1d:
+  type: quad
+  L: 1.0
+  strength: 0.542213589911
+  nsep: 1
+
+D10:
+  type: drift
+  L: 1.224434
+  nsep: 1
+
+q2d:
+  type: quad
+  L: 1.0
+  strength: -0.328856645709
+  nsep: 1
+
+D11:
+  type: drift
+  L: 3.5200527334253726
+  nsep: 1
+
+b5d36:
+  type: dipole
+  L: 0.9779
+  angle: 0.006
+  E1: 0.003
+  E2: 0.003
+  nsep: 1
+
+D12:
+  type: drift
+  L: 12.776524312482955
+  nsep: 1
+
+maindump:
+  type: None
+  L: None
+  nsep: 1
+
+D13:
+  type: drift
+  L: 0.383821
+  nsep: 1
+
+q5ff:
+  type: quad
+  L: 0.4609
+  strength: -0.467268800263
+  nsep: 1
+
+D14:
+  type: drift
+  L: 1.5428439999999999
+  nsep: 1
+
+q4ff:
+  type: quad
+  L: 0.7142
+  strength: -0.34106223812
+  nsep: 1
+
+D15:
+  type: drift
+  L: 0.1957
+  nsep: 1
+
+q3ff:
+  type: quad
+  L: 0.7142
+  strength: 0.416509781058
+  nsep: 1
+
+D16:
+  type: drift
+  L: 3.4653980000000004
+  nsep: 1
+
+xtcavf:
+  type: None
+  L: 1.0334497999999999
+  nsep: 1
+
+D17:
+  type: drift
+  L: 1.182251
+  nsep: 1
+
+q2ff:
+  type: quad
+  L: 0.7142
+  strength: 0.53037956706
+  nsep: 1
+
+D18:
+  type: drift
+  L: 0.86484
+  nsep: 1
+
+q1ff:
+  type: quad
+  L: 0.7142
+  strength: -0.987354552247
+  nsep: 1
+
+D19:
+  type: drift
+  L: 0.8639
+  nsep: 1
+
+q0ff:
+  type: quad
+  L: 0.7142
+  strength: 0.53037956706
+  nsep: 1
+
+D20:
+  type: drift
+  L: 2.587835018228781
+  nsep: 1
+

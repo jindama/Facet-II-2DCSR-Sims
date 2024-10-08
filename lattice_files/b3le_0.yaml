@@ -1,0 +1,41 @@
+step_size: 0.021148 #0.079
+
+#################################    
+b3le_full:
+    type: dipole
+    L: 0.5287
+    angle: 0.0102205514075
+    E1: 0.00511027570375
+    E2: 0.0511027570375
+    nsep: 1
+    #Done
+#################################    
+
+
+D16:
+    type: drift
+    L: 0.241798
+    nsep: 1
+    #Done
+#d8em:
+#    type: drift
+#    L: 0.205155
+#    nsep: 1
+#    #Done
+#dm6q:
+#    type: drift
+#    L: 0.036643
+#    nsep: 1
+#    #Done
+#   
+
+q6e_full_0:
+    type: quad
+    L: 0.286902 # 0.31
+    strength: -1.376084837022
+    nsep: 1
+    #Done
+
+#q6e_full_0:
+
+    

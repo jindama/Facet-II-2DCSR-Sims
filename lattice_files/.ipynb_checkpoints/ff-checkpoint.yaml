@@ -1,0 +1,234 @@
+step_size: 0.025933
+#####################################
+
+begff20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d11ff:
+  type: drift
+  L: 0.383821
+  nsep: 1
+
+mfff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+q5ff:
+  type: quadrupole
+  L: 0.23045
+  strength: -0.467268800263
+  nsep: 1
+
+d10ff:
+  type: drift
+  L: 0.137748
+  nsep: 1
+
+m1ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d9ff:
+  type: drift
+  L: 0.304419
+  nsep: 1
+
+bl20_4:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8ff:
+  type: drift
+  L: 0.2694
+  nsep: 1
+
+xc1ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8aff:
+  type: drift
+  L: 0.3877
+  nsep: 1
+
+yc1ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d8bff:
+  type: drift
+  L: 0.237877
+  nsep: 1
+
+m2ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d7ff:
+  type: drift
+  L: 0.2057
+  nsep: 1
+
+q4ff:
+  type: quadrupole
+  L: 0.3571
+  strength: -0.34106223812
+  nsep: 1
+
+d6ff:
+  type: drift
+  L: 0.1957
+  nsep: 1
+
+q3ff:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.416509781058
+  nsep: 1
+
+dkrk1:
+  type: drift
+  L: 0.691936
+  nsep: 1
+
+krk:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dkrk2:
+  type: drift
+  L: 0.231287
+  nsep: 1
+
+yc2ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d4ff:
+  type: drift
+  L: 0.484
+  nsep: 1
+
+usthz:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dbmark67:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d3aff:
+  type: drift
+  L: 0.817
+  nsep: 1
+
+dsthz:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d3ff:
+  type: drift
+  L: 0.49065
+  nsep: 1
+
+xc3ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dxtc1:
+  type: drift
+  L: 0.750525
+  nsep: 1
+
+xtcavf:
+  type: crab_cavity
+  L: 0.5167248999999999
+  nsep: 1
+
+dxtc2:
+  type: drift
+  L: 1.182251
+  nsep: 1
+
+q2ff:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.53037956706
+  nsep: 1
+
+d2aff:
+  type: drift
+  L: 0.034973
+  nsep: 1
+
+m3ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d2ff:
+  type: drift
+  L: 0.829867
+  nsep: 1
+
+q1ff:
+  type: quadrupole
+  L: 0.3571
+  strength: -0.987354552247
+  nsep: 1
+
+d1aff:
+  type: drift
+  L: 0.025933
+  nsep: 1
+
+m4ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+d1ff:
+  type: drift
+  L: 0.837967
+  nsep: 1
+
+q0ff:
+  type: quadrupole
+  L: 0.3571
+  strength: 0.53037956706
+  nsep: 1
+
+d0ff:
+  type: drift
+  L: 0.027833
+  nsep: 1
+
+m5ff:
+ type: drift
+  L: 0.00
+  nsep: 1
+
+dmq0ff:
+  type: drift
+  L: 0.17701988
+  nsep: 1
+
+endff20:
+ type: drift
+  L: 0.00
+  nsep: 1
+
