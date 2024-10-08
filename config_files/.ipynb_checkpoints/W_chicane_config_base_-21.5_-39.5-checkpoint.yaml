@@ -1,0 +1,38 @@
+CSR_computation:
+  apply_CSR: 1
+  compute_CSR: 1
+  transverse_on: 1
+  workdir: /global/cfs/cdirs/m669/obed/w_chicane_pydf_outputs_csroff/
+  write_beam:
+  - 12
+  - 138
+  - 272
+  - 287
+  - 312
+  - 340
+  - 435
+  - 553
+  write_name: bc20w_out_-21.5_-39.5
+  write_wakes: true
+  xbins: 10
+  xlim: 3
+  zbins: 20
+  zlim: 3
+CSR_integration:
+  n_formation_length: 1
+  xbins: 10
+  zbins: 10
+input_beam:
+  ParticleGroup_h5: /global/cfs/cdirs/m669/obed/begbc20_beams/BEGBC20_1M_-21.5_-39.5.h5
+  style: ParticleGroup
+input_lattice:
+  lattice_input_file: /global/homes/o/ocamacho/pydfCSR_sims/lattice_files/bc20w_c.yaml
+particle_deposition:
+  filter_order: 1
+  filter_window: 9
+  upper_limit: 2000
+  velocity_threhold: 1000
+  xbins: 300
+  xlim: 5
+  zbins: 300
+  zlim: 5
